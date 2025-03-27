@@ -2,10 +2,44 @@
 
 /* Header & Hero */
 
+h1, h2, h3 {
+font-family: "Bungee Shade";
+
+}
+
+.bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p {
+font-family: "Boldonse";
+font-size: 15px;
+}
+
+
 /* Projects */
+
+
+
 
 /* Reviews */
 
+.name1 {
+    display: flex;
+}
+
+.name2 {
+    display: flex;
+    justify-self: center;
+}
+
+.name3 {
+display: flex;
+justify-self: right;
+
+}
 /* Footer */
 
 
