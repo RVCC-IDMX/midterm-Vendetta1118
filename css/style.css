@@ -1,10 +1,13 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
-header {
+header h1 {
 display: flex;
-flex-flow: row;
 justify-content: center;
+}
+
+#hero {
+text-align: center;
 }
 
 
@@ -27,15 +30,31 @@ font-size: 15px;
 
 /* Projects */
 
+#projects {
 
+text-align: center;
+
+}
 
 
 /* Reviews */
-.reviews {
-    display: flex;
-    justify-content: center;
-    text-align: start;
+.review { 
+display: grid;
+background-color: rgb(196, 196, 196);
+box-shadow: 2px 2px 10px 3px;
+width: 100rem;
+height: auto;
 }
+
+
+.review p {
+font-size: 15px;
+}
+
+
+
+
+
 /* Footer */
 
 
