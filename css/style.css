@@ -1,6 +1,12 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+header {
+display: flex;
+flex-flow: row;
+justify-content: center;
+}
+
 
 h1, h2, h3 {
 font-family: "Bungee Shade";
@@ -25,22 +31,13 @@ font-size: 15px;
 
 
 /* Reviews */
-
-.name1 {
+.reviews {
     display: flex;
-}
-
-.name2 {
-    display: flex;
-    justify-self: center;
-}
-
-.name3 {
-display: flex;
-justify-self: right;
-
+    justify-content: center;
+    text-align: start;
 }
 /* Footer */
+
 
 
 /* Media state for Desktop site */
