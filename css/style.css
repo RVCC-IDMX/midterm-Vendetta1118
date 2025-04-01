@@ -1,5 +1,27 @@
 /* Styles for Mobile Site */
 
+
+
+
+body {
+  background-color: #4DE1EB ;
+  }
+
+
+#hero p {
+color: #4de1eb;
+}
+
+header {
+border: #403630;
+border-style: inset;
+margin: 0%;
+padding-bottom: 5rem;
+border-radius: 200px;
+background-color: #996848;
+}
+
+
 /* Header & Hero */
 header h1 {
 display: flex;
@@ -16,11 +38,7 @@ font-family: "Bungee Shade";
 
 }
 
-.bungee-shade-regular {
-    font-family: "Bungee Shade", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 
 p {
 font-family: "Boldonse";
@@ -30,8 +48,19 @@ font-size: 15px;
 
 /* Projects */
 
-#projects {
+#projects h2 {
+  border: #403630;
+  border-style: double;
+  background-color: #996848;
+  box-shadow: 2px 2px 10px 3px;
+}
 
+
+#projects p {
+  color: #403630;
+  }
+
+#projects {
 text-align: center;
 
 }
@@ -52,13 +81,28 @@ height: auto;
 font-size: 15px;
 }
 
+.name h3 {
+color: #000000;
+font-size: 30px;
+}
+
 
 
 
 
 /* Footer */
 
-
+footer {
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+text-align: center;
+border: #403630;
+border-style: inset;
+background-color: #996848;
+color: #000000;
+font-size: 20px;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
